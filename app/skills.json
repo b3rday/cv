@@ -1,0 +1,27 @@
+[
+  {
+    "abbreviation": "code",
+    "name": "Web Development Languages",
+    "items": ["ASP.NET MVC and Web Forms", "C#", "Html", "CSS", "Javascript", "jQuery", "Bootstrap", "AngularJs", "NodeJS", "Jasmine", "Protractor"]
+  },
+  {
+    "abbreviation": "file-image-o",
+    "name": "Graphic Design Softwares",
+    "items": ["Photoshop", "Indesign", "Bridge"]
+  },
+  {
+    "abbreviation": "folder-open-o",
+    "name": "Code Editing Softwares",
+    "items": ["Visual Studio", "Atom", "UltraEdit", "Notepad++", "VIM", "Aptana/Eclipse"]
+  },
+  {
+    "abbreviation": "terminal",
+    "name": "Version Control System",
+    "items": ["Git (+ TortoiseGit, Github, Travis CI)", "SVN (+ TortoiseSVN, JIRA, Crucible)"]
+  },
+  {
+    "abbreviation": "bolt",
+    "name": "Cross",
+    "items": ["Responsive Web design", "Cross-Browser compatibility on desktop and mobile"]
+  }
+]

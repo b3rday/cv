@@ -1,0 +1,11 @@
+<section class="professional-info box color2">
+    <h1>Professional Experience</h1>
+    <article>
+        <div ng-repeat="experience in experiences" ng-class="experience.abbreviation" class="job">
+            <h2>{{experience.company}} <span><i class="fa fa-map-marker"></i> {{experience.location}}<br><i class="fa fa-calendar"></i> {{experience.start_date | date:'MMMM yyyy'}} - {{experience.end_date | date:'MMMM yyyy'}}</span></h2>
+            <h3>Company Website</h3><a ng-Href="{{experience.url}}" target="_blank">{{experience.url}}</a>
+            <h3>Role</h3><span ng-bind-html="$sce.trustAsHtml(experience.role)"></span>
+            <h3>Acquired Skills</h3>{{experience.skill}}
+        </div>
+    </article>
+</section>

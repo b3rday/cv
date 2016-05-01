@@ -1,0 +1,37 @@
+<div class="arrow-up" data-anchor-target=".container" data-top="left:-78px" data--200-top="left:20px" ng-controller="ScrollController"><a href="#top" ng-click="gotoTop()"><i class="fa fa-chevron-up"></i></a></div>
+<div id="top" class="container">
+    <section class="personal-info box color1">
+        <div class="picture" data-anchor-target=".container" data-60-top="opacity:0;" data-top="opacity:1;"></div>
+        <div class="hgroup-inner">
+            <div class="name">{{personal.name}}</div>
+            <div class="job-position">{{personal.profession}} <i class="fa fa-code"></i> {{personal.specialist}}</div>
+        </div>
+        <h1>Personal Information:</h1>
+        <ul>
+            <li><b><i class="fa fa-globe"></i> Name</b> {{personal.name}}</li>
+            <li><b><i class="fa fa-calendar"></i> Date of Available</b> {{personal.availability}}</li>
+            <li><b><i class="fa fa-map-marker"></i> Resident in</b> {{personal.resident}}</li>
+            <li><b><i class="fa fa-paper-plane-o"></i> Email</b> <a href="{{personal.email}}">{{personal.email}}</a></li>
+            <li><b><i class="fa fa-link"></i> Linkedin</b> <a ng-href="https://linkedin.com/in/{{personal.linkedin_id}}" target="_blank">https://linkedin.com/in/{{personal.linkedin_id}}</a></li>
+            <li><b><i class="fa fa-phone"></i> Mobile phone</b> <a ng-href="tel:+{{personal.tel}}">{{personal.tel | tel}}</a></li>
+            <li><b><i class="fa fa-comments-o"></i> Working Visa</b> {{personal.visa}}</li>
+            <li><b><i class="fa fa-mortar-board"></i> Education</b> {{personal.education}}</li>
+        </ul>
+    </section>
+    <cv-experience></cv-experience>
+    <cv-skill></cv-skill>
+</div>
+<div class="data" data-anchor-target=".professional-info" data-top="opacity:1;" data-60-top="opacity:0">
+    <ul>
+        <li><a ng-href="mailto:{{personal.email}}"><i class="fa fa-paper-plane-o"></i> contact me</a></li>
+        <li><a ng-href="tel:{{personal.tel}}"><i class="fa fa-phone"></i> call me</a></li>
+        <li><a ng-href="https://linkedin.com/in/{{personal.linkedin_id}}" target="_blank"><i class="fa fa-link"></i> Linkedin</a></li>
+        <li><a ng-href="{{personal.pdf}}" class="pdf-download"><i class="fa fa-download"></i> PDF</a></li>
+        <li>
+            <div class="social-cont">
+                <div class="social-box linkedin"><a ng-href="https://linkedin.com/in/{{personal.linkedin_id}}" target="_blank"><i class="fa social-ico fa-linkedin"></i></a></div>
+                <div class="social-box github"><a ng-href="https://github.com/{{personal.github}}" target="_blank"><i class="fa social-ico fa-github"></i></a></div>
+            </div>
+        </li>
+    </ul>
+</div>
