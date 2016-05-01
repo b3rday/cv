@@ -1,0 +1,11 @@
+<section class="skills box color3">
+    <h1>Skills</h1>
+    <article>
+        <div class="row" ng-repeat="skill in skills" >
+            <h3><i class="fa fa-{{skill.abbreviation}}"></i> {{skill.name}}</h3>
+            <ul>
+                <li ng-repeat="item in skill.items">{{item}}</li>
+            </ul>
+        </div>
+    </article>
+</section>

@@ -1,0 +1,32 @@
+[
+  {
+    "abbreviation": "classroom",
+    "company": "Classroom Publications Limited",
+    "location": "Hong Kong",
+    "start_date": "2012-09-26",
+    "end_date": "2016-02-26",
+    "url": "classroom.com.hk",
+    "role": "Web Programmer for an ever expanding number of projects including <a href=\"http://classroom.com.hk/students\" target=\"_blank\">eMagazine</a>, <a href=\"http://classroom.com.hk/idiomworld\" target=\"_blank\">Idiom World</a>, <a href=\"http://pinkos.com.hk\"target=\"_blank\">Pink Office Solution</a> and more.",
+    "skill": "Applications are developed using ASP.NET MVC and Web Forms with C#, PHP, HTML5, CSS3, javascript, jQuery and Bootstrap. Most of the time I lead the development of the project with our manager and designer. I use Visual Studio as IDE. I use MS SQL Server, MySQL and MS Access as database, and I develop web service to communicate between the database and the application. TSQL written in store procedure is often used to increase the performance and readability of the web service."
+  },
+  {
+    "abbreviation": "rovi",
+    "company": "Rovi Hong Kong Limited",
+    "location": "Hong Kong",
+    "start_date": "2007-07-16",
+    "end_date": "2011-12-30",
+    "url": "rovicorp.com",
+    "role": "Software Engineer for creating and maintaining web services with a US-based agile team for the communication between our database and the Electronic Program Guide, the major product of our company.",
+    "skill": "I use the scrum board in JIRA to manage our project. I go through all new issues, estimate priority, the time and difficultly to solve them, and put those issues with higher priority into the current or coming sprint. I review the code using crucible, documentation using confluence and version control using GIT. Most of the time I lead the development for my projects."
+  },
+  {
+    "abbreviation": "hkec",
+    "company": "The Hong Kong Education City Limited",
+    "location": "Hong Kong",
+    "start_date": "2006-07-06",
+    "end_date": "2007-07-04",
+    "url": "hkedcity.net",
+    "role": "Assistant Software Enginner for creating Kindergarten, Primary and Secondary School Profiles to help parents in Hong Kong to select the suitable schools for their children. We create a CMS for all schools to submit their school information. With all information collected, I generate booklets with all school information in pdf format using VB and Adobe Indesign API.We also create websites for parents to search for schools. I also work on KPI project which indicate our performance in the whole year to the public, in order to get the funding and projects from the government.",
+    "skill": "Applications are developed using PHP, HTML, CSS, javascript and VB. I use MySQL as database. VB is used to call the API of Adobe Indesign to generate the booklet for School Profiles."
+  }
+]
